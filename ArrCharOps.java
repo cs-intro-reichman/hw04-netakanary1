@@ -145,7 +145,7 @@ public class ArrCharOps {
      * The hash value of an empty array is zero.
      */
     public static long hashCode(char[] arr) {
-        if (arr.length == 0 || arr == null)
+        if (arr == null || arr.length == 0)
             return 0;
         long sum = 0;
         for (int i = 0; i < arr.length; i++) {
