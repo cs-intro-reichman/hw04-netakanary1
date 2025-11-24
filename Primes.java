@@ -18,6 +18,7 @@ public class Primes {
                 }
                 prime = getNextTrueIndex(arr, prime);
             }
+            System.out.println("Prime numbers up to " + num + ":");
             for (int i = 0; i < arr.length; i++) {
                 if (arr[i] == true) {
                     System.out.println(i);
