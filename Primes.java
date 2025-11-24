@@ -25,7 +25,7 @@ public class Primes {
                 }
             }
             System.out.println("There are " + cntPrime + " primes between 2 and " + num + ". ("
-                    + (int) ((double) cntPrime / num * 100) + "% are primes)");
+                    + (int) ((double) cntPrime / num * 100) + "% are primes) ");
         }
     }
 
